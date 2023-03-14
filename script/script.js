@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", function () {
 const updateCounter = () => {
   let counter = sessionStorage.getItem("counter");
   if (!counter) {
-    counter = 0;
+    counter = -1;
   }
   counter++;
   sessionStorage.setItem("counter", counter);
