@@ -23,10 +23,10 @@ window.addEventListener("DOMContentLoaded", function () {
 
 const updateCounter = () => {
   let counter = sessionStorage.getItem("counter");
-  counter++;
   if (!counter) {
     counter = -1;
   }
+  counter++;
   sessionStorage.setItem("counter", counter);
   document.getElementById("counter").innerText = counter;
 };
