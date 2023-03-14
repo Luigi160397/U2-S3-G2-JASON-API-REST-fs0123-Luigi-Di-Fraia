@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("registrationForm");
   form.addEventListener("submit", function (event) {
     event.preventDefault();
